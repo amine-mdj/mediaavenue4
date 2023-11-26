@@ -1,0 +1,96 @@
+.agsec1{
+    margin: 0;
+    width: 100% ;
+    min-height:100vh ;
+    overflow: hidden;
+    background-color: #151515;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.agsec1-left{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.agsec1-right{
+  flex: 1;
+}
+
+.agsec1-left img{
+    width: 100%;
+    height: 70%;
+}
+
+.agsec1-right h1{
+    margin-top: 150px;
+    font-size: 4.2rem;
+    font-weight: 900;
+    color : white;
+    text-align: center;
+
+}
+
+.agsec1-right hr{
+    border: none;
+    height: 2px;
+    width: 50px;
+    background: white;
+
+}
+.agsec1-right p{
+  font-size: 1.2rem;
+    padding-right: 70px;
+    line-height: 1.5;
+    color: white;
+}
+
+@media screen and (max-width: 1440px) {
+  .agsec1-right h1{
+    font-size: 3.8rem;
+  }
+  .agsec1-right p{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .agsec1-left img{
+    padding-top: 40px;
+    width: 80%;
+    height: 80%;
+  }
+
+  .agsec1-right h1{
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  .agsec1-right p{
+    padding-inline: 5px;
+    font-size: 1rem;
+  }
+
+  .agsec1-left{
+   flex: none;
+   width: 100%;
+  }
+  .agsec1-right{
+    flex: none;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .agsec1-right p{
+    text-align: center;
+    width: 90%;
+    margin-inline: auto;
+    font-size: 1.4rem;
+  }
+}
+
+
+/*    ------------------------ git test ---------------------------- */

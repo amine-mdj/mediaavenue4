@@ -1,0 +1,88 @@
+.adssec1{
+    width: 100%;
+    min-height: 600px;
+    overflow: hidden;
+    background-color: #484a4b;
+    display: flex;
+    background-image: url('../../img/bg-overlay2.webp'); /* Relative path to your image */
+    background-size: 2px; /* This will cover the entire area */
+    
+}
+
+.adssec1-left{
+  flex: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adssec1-right{
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:50%;
+}
+
+.adssec1-left img{
+    height: 80%;
+    width: 80%;
+}
+
+.adssec1-right h1{
+  font-size: 4.2rem;
+  text-align: center;
+font-weight: 900;
+color: white;
+}
+
+.adssec1-right hr{
+ border: none;
+ height: 2px;
+ width: 50px;
+ background: white;
+}
+
+.adssec1-right p{
+  line-height: 1.5;
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 1440px) {
+  .adssec1-right h1{
+    font-size: 3.8rem;
+  }
+  .adssec1-right p{
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .adssec1-left img{
+    margin-top: 40px;
+    margin-left: 0;
+    height: 80%;
+    width: 100%;
+  }
+  .adssec1-right h1{
+    font-size: 2rem;
+    width: 90%;
+    margin-inline: auto;
+  }
+  .adssec1-right p{
+    font-size: 1.4rem;
+    width: 90%;
+    margin-inline: auto;
+  }
+  .adssec1-left,.adssec1-right{
+    flex: none;
+    width: 100%;
+    
+  }
+  .adssec1{
+    flex-wrap: wrap;
+  }
+}

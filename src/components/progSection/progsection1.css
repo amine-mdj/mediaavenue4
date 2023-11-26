@@ -1,0 +1,99 @@
+.progsec1{
+    width: 100% ;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #484a4b;
+    background-image: url('../../img/bg-overlay2.webp'); /* Relative path to your image */
+    background-size: 2px; /* This will cover the entire area */
+}
+
+.progsec1-left{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progsec1-right{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.progsec1-left img{
+  height: 90%;
+  width: 90%;
+}
+
+.progsec1-right h1{
+  margin-top: 150px;
+  text-align: center;
+  margin-left: 20px;
+  font-weight: 900;
+  color: white;
+  font-size: 4.2rem;
+}
+
+.progsec1-right hr{
+ border: none;
+ width: 50px;
+ height: 2px;
+ margin-top: -10px;
+}
+
+.progsec1-right p{
+ color: white;
+ font-size: 1.8rem;
+ line-height:1.5;
+ padding: 20px;
+ text-align: center;
+ margin-left: 20px;
+    margin-right: 20px;
+}
+
+.madman{
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+.progsec1-right-inner{
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  .progsec1-right h1{
+    font-size: 3.8rem;
+  }
+
+  .progsec1-right p{
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+   .progsec1-left{
+    flex: none;
+    width: 100%;
+   }
+   .progsec1-right h1{
+    font-size: 2rem;
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 20px;
+  }
+  .progsec1-right p{
+    font-size: 1.4rem;
+    padding-inline: 5px;
+    padding: 0px;
+  }
+
+   .progsec1-right{
+      flex: none;
+      width: 100%;
+      padding-block: 0;
+      align-items: normal;
+   }
+}

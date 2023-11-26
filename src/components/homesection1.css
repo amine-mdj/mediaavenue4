@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;900&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.wrapper{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    background-color: #484a4b;
+    padding-bottom: 50px;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    background-image: url('../img/bg-overlay2.webp'); /* Relative path to your image */
+    background-size: 2px; /* This will cover the entire area */
+    margin-top: -50px;
+    z-index: 2;
+}
+
+.right{
+    padding-right: 50px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.right h1{
+    color: white;
+    font-size: 4rem;
+}
+
+.right p{
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.h1-line1,.h1-line2,.h1-line3,.p-line1,.p-line2{
+    display: block;
+}
+
+.wrapper img{
+    height: 100%;
+    width: 100%;
+}
+
+hr{
+    width: 200px;
+    border: none; /* Remove the default border */
+    background-color: white; /* Set the background color to white */
+    height: 2px;
+}
+
+.left{
+    flex: 1;
+    
+    }
+
+strong{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1440px)
+{
+    .right h1{
+        font-size: 2.8rem;
+    }
+    .right p{
+        font-size: 1.2rem;
+       
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .right{
+        padding-right: 0;
+    }
+    .right h1{
+        width: 90%;
+        margin-inline: auto;
+    }
+    .wrapper{
+        display: block;
+        min-height: auto;
+        
+        
+    }
+    .right h1{
+        font-size: 2rem;
+    }
+
+    .right p{
+        font-size: 1rem;
+       
+    }
+    
+  }

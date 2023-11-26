@@ -1,0 +1,152 @@
+.desec12{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   min-height: 100vh ;
+   overflow: hidden;
+   background-color: #f9e883;
+   
+}
+ 
+.desec12-left{
+  box-sizing: border-box;
+  padding-top: 150px;
+flex: 1;
+}
+
+.desec12-right{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.desec12-right img{
+  margin-right: 80px;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.desec12-left h1{
+color: white;
+font-size:3.8rem ;
+font-weight: 900 ;
+text-align: center;
+margin-top: 100px ;
+
+}
+
+.desec12-left hr{
+  margin-top: 0px;
+  background: white;
+  border: none;
+  height: 2px;
+  width: 50px;
+}
+
+.desec12-left p{
+  color: #555;
+  padding-left: 100px;
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+.desec12-left span{
+  font-weight: 700;
+}
+
+.desec12-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btnanim{
+    position: relative;
+    color: #8bc34a;
+    background-color: white;
+    border: 2px solid #8bc34a;
+    font-size: 1rem;
+    padding: 12px 14px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.btnanim::before{
+  z-index: 0;
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  transform: translate(-50%,-50%);
+  content: "";
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #8bc34a;
+  transition: width .5s, height .5s; 
+}
+
+.btnanim:hover::before{
+  width: 400px;
+  height: 400px;
+}
+
+.btnanim:hover span{
+  color: white
+}
+.btnanim span{
+  position: relative;
+  z-index: 1;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1440px) {
+  .desec12-left h1{
+    margin-top: 0;
+    font-size: 2.8rem;
+  }
+
+  .desec12-left p{
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .desec12-left h1{
+   font-size: 1.8rem;
+   width: 90%;
+   margin-inline: auto;
+  }
+  .desec12-left{
+   flex: none;
+   width: 100%;
+   margin-top: -50px;
+   margin-bottom: 30px;
+  }
+
+  .desec12-right img{
+    margin-top: -36px;
+    margin-right: 0px;
+    width: 100%;
+    height: 120%;
+  
+  
+  }
+  .desec12-left p{
+    padding-left: 0;
+    width: 90%;
+    margin-inline: auto;
+  }
+  .desec12-right{
+    flex: none;
+    width: 100%;
+    order : 1
+  }
+}
+
+
+
+

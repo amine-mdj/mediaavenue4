@@ -1,0 +1,102 @@
+.ticsec3{
+    width:100% ;
+    min-height:100vh ;
+    overflow: hidden;
+    background-color: #f9e883; 
+    background-image: url('../../img/bg-overlay.webp');
+    background-size: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ticsec3-left{
+    margin-top: 120px;
+    padding-inline: 100px;
+ flex: 60%;
+}
+
+.ticsec3-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ flex: 40% ;
+}
+
+.ticsec3-right img{
+    width: 170%;
+    height: 100%;
+}
+
+.ticsec3-left h1{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #555;
+}
+
+.ticsec3-left hr{
+    border: none;
+    height: 2px;
+    width: 50px;
+    background: #555;
+}
+
+.ticsec3-left span{
+    font-weight: 700;
+}
+
+.ticsec3-left p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.ticsec3-left li{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .ticsec3-left{
+      margin-top: 20px;
+    }
+
+   .ticsec3-left h1{
+    font-size: 1.8rem;
+   }
+
+   .ticsec3-left p{
+    font-size: 1rem;
+   }
+
+   .ticsec3-left li {
+    font-size: 1rem;
+   }
+}
+
+@media screen and (max-width: 768px) {
+    .ticsec3-left p {
+        padding-inline: 20px;
+    }
+    .ticsec3-left ul {
+        padding-inline-end: 20px;
+    }
+    .ticsec3-left h1{
+        width: 90%;
+        margin-inline: auto;
+       }
+  .ticsec3-right{
+   flex: none;
+   width: 100%;
+   order: 1;
+  }
+  .ticsec3-left{
+   flex: none;
+   width: 100%;
+   order: 2;
+   padding-inline: 10px;
+  }
+}

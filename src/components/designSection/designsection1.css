@@ -1,0 +1,107 @@
+.desec1{
+    width: 100%;
+    background-color: #484a4b;
+    background-image: url('../../img/Design2.webp'), url('../../img/bg-overlay2.webp');
+    background-repeat: no-repeat, repeat; /* Gestion de la répétition */
+    background-size: 70% 80%, 2px;
+    background-position: -20% 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.desec1-left,.desec1-right{
+    flex: 1;
+    padding-bottom: 50px;
+}
+
+.desec1-left img{
+    display: none;
+}
+
+.desec1-right h1{
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 20px;
+    font-weight: 900;
+    color: white;
+    font-size: 4.2rem;
+}
+
+.desec1-right p{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    line-height:1.5;
+    font-size: 1.8rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.desec1-right hr{
+    border: none;
+    width: 50px;
+    height: 2px;
+    margin-top: -10px;
+    }
+
+
+@media screen and (max-width: 1440px) {
+ .desec1-right h1{
+    font-size: 3.8rem;
+ }
+ .desec1-right p{
+    font-size: 1.1rem;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    .desec1{
+        background-image: url('../../img/bg-overlay2.webp');
+        background-repeat: repeat; /* Gestion de la répétition */
+        background-size: 2px;
+        
+    }
+    .desec1-right h1{
+        margin-top: 0;
+        font-size: 2rem;
+        width: 90%;
+        margin-inline: auto;
+        }
+     .desec1-right hr{
+        margin-top: 0;
+     }
+     .desec1-right p{
+        font-size: 1.4rem;
+   
+        padding-inline: 20px;
+        line-height:1.5;
+
+    }
+ .desec1-left img{
+    display: block;
+    margin-top: 30px;
+    width: 120%;
+    height: 70%;
+ }
+
+ .desec1-left,.desec1-right{
+    width: 100%;
+    flex: none;
+    padding-bottom: 10px;
+}
+
+
+
+.desec1-left{
+    flex: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+  } 
+

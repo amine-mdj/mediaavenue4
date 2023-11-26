@@ -1,0 +1,99 @@
+.seosec4{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: white;
+    background-image: url('../../img/bg-overlay.webp');
+    background-size: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.seosec4-left{
+  flex: 1;
+}
+
+.seosec4-right{
+    padding-top: 200px;
+    padding-right: 100px;
+  flex: 1
+}
+
+.seosec4-left img{
+    
+   
+    width: 100%;
+    height: 100%;
+    
+}
+
+.seosec4-right h2{
+    font-size: 2rem;
+    color: #555;
+    text-align: center;
+}
+
+.seosec4-right hr{
+    border: none;
+    height: 2px;
+    width: 50px;
+    background: #555;
+}
+
+.seosec4-right p{
+    font-size: 1.2rem;
+    padding-inline: 40px;
+ color: #555;
+ line-height: 1.5;
+}
+
+.seosec4-right div{
+    padding-block: 5px;
+    margin-top: 40px;
+    margin-inline: 40px;
+    background-color: #7f7f7f;
+}
+
+.seosec4-right div p{
+    color: white;
+}
+
+.seosec4-right div span{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1440px){
+    .seosec4-right{
+        padding-top: 100px;
+
+    }
+ .seosec4-right h2{
+    font-size: 1.3rem;
+ }
+ .seosec4-right p{
+    font-size: 1rem;
+ }
+}
+
+@media screen and (max-width: 768px){
+    .seosec4-right h2{
+        width: 90%;
+        margin-inline: auto;
+     }
+    .seosec4-left{
+        flex: none;
+        width: 100%;
+    }
+    .seosec4-right{
+        flex: none;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: -50px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .seosec4-left img{
+       transform: rotateZ(0);
+    }
+}
+

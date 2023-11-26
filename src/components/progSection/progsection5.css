@@ -1,0 +1,110 @@
+.progsec5{
+    width: 100%;
+    min-height: 95vh;
+    overflow: hidden;
+   /*  background-color: #add17f; */
+   background-color: white;
+   background-image: url('../../img/bg-overlay2.webp'); /* Relative path to your image */
+   background-size: 2px; /* This will cover the entire area */
+}
+
+.progsec5 h1{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+  color: #555;
+}
+
+.progsec5 hr{
+background: #555 ;
+width: 50px;
+height: 2px;
+border: none;
+}
+
+.progsec5-bottom{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.progsec5-left{
+    margin-left: 50px ;
+    display: flex;
+    PADDING-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.progsec5-right{
+    padding-left: 100px;
+    padding-right: 20px;
+    PADDING-top: 20px;
+  flex: 1;
+}
+
+.progsec5-left img{
+    box-shadow: 0 0 20px #555;
+    height: 90%;
+    width: 90% ;
+}
+
+.progsec5-right h2{
+    font-size: 2rem;
+    color: #555;
+}
+
+.progsec5-right p{
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.progsec5-right span{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1440px) {
+   .progsec5 h1{
+    font-size: 2.8rem;
+   }
+   .progsec5-right h2{
+    font-size: 1.3rem;
+   }
+   .progsec5-right p{
+    font-size: 1.3rem;
+   }
+}
+
+@media screen and (max-width: 768px) {
+    .progsec5 h1{
+        font-size: 2rem;
+        width: 90%;
+        margin-inline: auto;
+       }
+  .progsec5-left{
+   flex: none;
+   width: 100%;
+   margin-left: 0;
+  }
+  .progsec5-right{
+   flex: none;
+   width: 100%;
+   padding-left: 20px;
+  }
+  .progsec5-left img{
+    
+    width:90% ;
+}
+
+.progsec5-right h2 {
+    font-size: 1.7rem;
+    line-height: 1.4;
+
+  }
+  .progsec5-right p {
+    line-height: 1.6;
+  }
+}

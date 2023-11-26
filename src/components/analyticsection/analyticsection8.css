@@ -1,0 +1,80 @@
+.ticsec8{
+    padding-top: 100px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    overflow: hidden;
+    background-image: url('../../img/bg-machine.webp');
+    background-size: 100% 100%;
+}
+
+.ticsec8 h1{
+    margin-top: 150px;
+    font-size: 2.8rem;
+    font-weight: 900;
+    text-align: center;
+    color: #555;
+}
+.ticsec8 hr{
+    border: none;
+    height: 2px;
+    width: 50px;
+    background: #555;
+}
+
+.ticsec8-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticsec8-center{
+    width: 50%;
+}
+
+.ticsec8 p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.ticsec8 li{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.ticsec8 span{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1440px) {
+    .ticsec8 h1{
+        margin-top: 0;
+        font-size: 1.8rem;
+    }
+    .ticsec8 p{
+        font-size: 1rem;
+    }
+    .ticsec8 li{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ticsec8{
+        background-image: url("../../img/bg-mobile2.webp");
+        background-size:100% 100%;
+    }
+    .ticsec8 h1{
+        width: 90%;
+        margin-inline: auto;
+    }
+    .ticsec8-center{
+        width: 80%;
+    }
+    .ticsec8-center ul{
+        padding: 20px;
+    }
+}

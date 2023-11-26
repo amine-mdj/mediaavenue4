@@ -1,0 +1,119 @@
+.desec4{
+    width:100% ;
+    min-height:100vh ;
+    background-image: url(../../img/bg.webp);
+    background-size: 75% 90%;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.desec4 h1{
+    font-size: 4rem;
+    color: #555;
+    text-align: center;
+}
+
+.desec4-right{
+    width: 100%;
+    flex: 60%;
+    margin-bottom: 50px;
+}
+
+.desec4-right hr{
+    border: none;
+    background-color: #555;
+    height: 2px;
+    width: 50px;
+}
+
+.desec4-left{
+    flex: 40%;
+}
+
+.desec4-left img{
+    display: none;
+}
+
+.desec4-desc{
+    margin-top: 50px;
+    margin-inline: 60px;
+    padding: 40px;
+    background-color: hsla(0,0%,100%,.2);
+}
+
+.desec4-desc h2{
+    font-size: 1.6rem;
+   color: #555;
+   line-height: 1.6;
+}
+.desec4-desc p{
+    font-size: 1.2rem;
+    line-height: 1.6 ;
+    color: #555;
+}
+.desec4-desc ul{
+    padding: 0;
+}
+.desec4-desc li{
+    font-size: 1.2rem;
+    line-height: 1.6 ;
+    color: #555;
+    padding: 0;
+}
+
+@media screen and (max-width: 1440px) {
+    .desec4 h1{
+        font-size: 2.8rem;
+    }
+    .desec4-desc h2{
+        font-size: 1.5rem;
+    }
+    .desec4-desc p{
+        font-size: 1.1rem;
+    }
+
+    .desec4-desc li{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .desec4{
+        background-image: none;
+    }
+    .desec4 h1{
+        font-size: 2rem;
+    }
+   .desec4-left img{
+    display: block;
+    width: 70%;
+    height: 90%;
+   }
+
+   .desec4-desc{
+    margin-inline: 0;
+    padding: 20px;
+    
+}
+
+   .desec4-right{
+    flex: none;
+}
+
+.desec4-left{
+    flex: none;
+}
+
+.desec4-desc {
+    margin-top: 0px;
+
+}
+.desec4-desc ul {
+    padding: 20px;
+}
+}
+

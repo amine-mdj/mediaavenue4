@@ -1,0 +1,137 @@
+.desec8{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    overflow: hidden;
+}
+
+.desec8 h1{
+    font-size: 2.8rem;
+    margin-top: 50px;
+  font-weight: 900;
+  color: #555;;
+  text-align: center;
+}
+
+.desec8 hr{
+  border: none;
+  width: 50px;
+  height: 2px;
+  background: #555;;
+}
+
+.desec8 p{
+ color: #555;
+ text-align: center;
+ font-size: 1.5rem;
+}
+
+.desec8-grid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 25px;
+    padding-inline: 200px;
+}
+
+.desec8-grid-row{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    }
+
+.desec8-grid-row h2{
+    font-size: 1.2rem;
+    color: #555555;
+    text-align: center;
+    }    
+
+.desc8-bullet{
+    background-image: url('../../img/bullet-y.webp');
+    background-size: 100% 100%;
+
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 20%;
+}
+
+.desec8-para{
+    flex: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.desec8-para p{
+    width: 80%;
+    margin: auto;
+    margin-top: 1px;
+    color: #555555;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: left;
+    padding-inline-start: 20px;
+    
+}
+
+.desec8-griditem{
+    height: 100px;
+}
+
+@media screen and (max-width: 1440px) {
+    .desec8 {
+        min-height: 140vh;
+    }
+
+    .desec8 h1{
+        font-size: 1.8rem;
+    }
+
+    .desec8 p{
+        font-size: 1.1rem;
+    }
+
+    .desec8-para p{
+        font-size: 1rem;
+    }
+    .desec8-grid-row h2{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .desec8 h1{
+        width: 90%;
+        margin-inline: auto;
+    }
+    .desec8-grid{
+        margin-top: 0;
+        display: block;
+        margin-bottom: 30px;
+        padding-inline: 0;
+    }
+    .desec8-para p{
+        width: 80%;
+        margin-top: 30px;
+        font-size:1.1rem;
+    }
+    .desec8-grid-row{
+        display: block;
+        margin-top: 30px;
+    }
+    .desc8-bullet{
+        height: 100px;
+        background-size: 30% 100%;
+        background-repeat: no-repeat;
+    }
+    .desec8-griditem{
+        height: fit-content;
+    }
+    .desec8 p{
+    padding-inline: 10px;
+    line-height: 1.5;
+}
+}

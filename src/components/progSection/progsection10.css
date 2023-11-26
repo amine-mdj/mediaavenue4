@@ -1,0 +1,128 @@
+.progsec10{
+    padding-top: 50px;
+    width:100% ;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: white;
+    background-image: url('../../img/bg-overlay2.webp'); /* Relative path to your image */
+    background-size: 2px; /* This will cover the entire area */
+}
+
+.progsec10 h1{
+    font-size: 2.8rem;
+    color: #555 ;
+    font-weight: 800;
+    text-align: center;
+}
+
+.progsec10 hr{
+    border: none;
+    height: 2px;
+    width: 50px;
+    background: #555 ;
+}
+
+.progsec10 p{
+    line-height: 1.4;
+    color: #555 ;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.progsec10-item{
+    padding-inline: 170px;
+    display: flex;
+}
+
+.progsec10-item-right{
+ flex: 80%;
+}
+
+.progsec10-item-left{
+    background-image: url(../../img/bullet-y.webp);
+    background-size: 50% 70%;
+    background-repeat: no-repeat;
+margin-top: -8px;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex: 20%;
+}
+
+.progsec10-item-left p{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.progsec10-item-right span{
+font-weight: 700;
+}
+
+.progsec10-item-right p{
+    width: 80%;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+@media screen and (max-width: 1440px) {
+    .progsec10 h1{
+        font-size: 1.8rem;
+    }
+    .progsec10 p{
+        font-size: 1.3rem;
+        padding: 20px;
+    }
+    .progsec10-item-right p{
+        font-size: 1.2rem;
+       
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .progsec10{
+        padding-bottom: 30px;
+    }
+
+    .progsec10 h1{
+        width: 90%;
+        margin-inline: auto;
+    }
+    .progsec10-item-left p{
+        font-size: 1.6rem;
+    }
+    .progsec10-item-left{
+        margin-block: 20px;
+        background-size: 30% 100%;
+    }
+    .progsec10-item{
+        padding-inline: 10px;
+        text-align: center;
+        display: block;
+    }
+    .progsec10-item-right p{
+        text-align: left;;
+        margin: auto;
+    }
+
+    .progsec10-item-right h2 {
+        font-size: 1.7rem;
+        line-height: 1.4;
+    
+      }
+      .progsec10-item-right p {
+        line-height: 1.6;
+        text-align:left;
+        font-size: 1.2rem;
+      }
+      .progsec10-item-right span {
+        line-height: 1.6;
+        text-align:left;
+        font-size: 1.2rem;
+      }
+      .progsec10{
+        padding-top: 0px;
+
+    }
+}

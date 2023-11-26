@@ -1,0 +1,149 @@
+.progsec9{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f9e883;
+
+    background-size: 100% 100%;
+}
+
+.progsec9-left{
+    flex: 1;
+    background-image: url('../../img/zen.webp');
+    background-size: 100% 100%;
+}
+
+
+
+.progsec9-right{
+ padding-left: 140px;
+ padding-right: 20px;
+ margin-top: 50px;
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.dis{
+  box-shadow: 0 0 20px #c38442;
+  margin-left: 20px;
+  height: 80%;
+  background-image: url('../../img/bg-overlay2.webp'); /* Relative path to your image */
+  background-size: 2px; /* This will cover the entire area */
+ }
+
+.progsec9-right h1{
+
+  font-size: 4rem;
+  color: #555;
+  text-align: center;
+  font-weight: 800;
+}
+
+.progsec9-right hr{
+  margin-top: -30px;
+    border: none;
+    height: 2px;
+    width: 50px;
+    background: #555 ;
+
+}
+
+.progsec9-left img{
+
+    width: 100%;
+}
+
+.progsec9-right h2{
+  text-align: center;
+  font-size: 2rem;
+  color: #555;
+}
+
+.progsec9-right p{
+  width: 80%;
+ 
+  font-size: 1.4rem;
+    line-height: 1.6;
+  color: #555;
+}
+
+@media screen and (max-width: 1440px) {
+  .progsec9 h1{
+    margin-top: 0;
+    font-size: 2.8rem;
+  }
+
+  .progsec9-right h2{
+    font-size: 1.3rem;
+  }
+
+  .progsec9-right p{
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .progsec9{
+    padding-bottom: 50px;
+    background-image: none;
+  }
+
+  .progsec9 h1{
+    font-size: 2rem;
+    margin-top: 30px;
+    width: 90%;
+    margin-inline: auto;
+    
+  }
+  .progsec9-left{
+    background-image: url('../../img/zen.webp');
+    background-size: 100% 100%;
+  }
+  .progsec9-left img{
+    margin-right: 50px;
+    width: 100%;
+  }
+  .progsec9-right{
+    margin-top: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    flex: none;
+    width: 100%;
+  }
+  .progsec9-right hr{
+    margin-top: 0;
+  }
+  .progsec9-right h2{
+    margin-top: 30px;
+    width: 90%;
+    margin-inline: auto;
+  }
+  .progsec9-right p{
+    width: 90%;
+    margin-inline: auto;
+  }
+
+  .progsec9-left h2 {
+    font-size: 1.7rem;
+    line-height: 1.4;
+
+  }
+  .progsec9-left p {
+    line-height: 1.6;
+    text-align:left;
+  }
+
+  .dis {
+    box-shadow: 0 0 20px #c38442;
+min-height:110vh;
+    width: 90%;
+    height: 100%;
+    background-image: url('../../img/bg-overlay2.webp'); /* Relative path to your image */
+    background-size: 2px;
+    margin-left:0px;
+}
+}

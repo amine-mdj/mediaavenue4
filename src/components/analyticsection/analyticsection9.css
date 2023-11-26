@@ -1,0 +1,82 @@
+.ticsec9{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #f9e883;
+    background-image: url('../../img/bg-diploma.webp');
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-position: -70% 50%;
+}
+
+.ticsec9-img img{
+    display: none;
+}
+.ticsec9-inner{
+    position: relative;
+    top: 300px;
+    left: 45%;
+    width: 50%;
+}
+
+.ticsec9-inner h1{
+    font-size: 2.8rem;
+ font-weight: 900;
+ color: #555;
+ text-align: center;
+}
+
+.ticsec9-inner hr{
+    border: none;
+    height: 2px;
+    width: 50px;
+    background: #555;
+}
+
+.ticsec9-inner p{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.ticsec9-inner span{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1440px) {
+    .ticsec9-inner h1{
+        font-size: 1.8rem;
+    }
+    .ticsec9-inner{
+        top: 100px;
+    }
+    .ticsec9-inner p{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ticsec9{
+        background-image: none;
+        padding-bottom: 20px;
+        }
+        .ticsec9-inner h1{
+            width: 90%;
+            margin-inline: auto;
+        }
+    .ticsec9-img img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .ticsec9-inner{
+        top: 20px;
+        left: 0;
+        width: 100%;
+    }
+    .ticsec9-inner p{
+        padding-inline: 20px;
+    }
+    
+}

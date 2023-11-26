@@ -1,0 +1,133 @@
+.desec11{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.desec11-left{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.desec11-left img{
+    width: 80%;
+    height: 70%;
+}
+
+.desec11-right{
+    box-sizing: border-box;
+    padding-top: 150px;
+    flex:1;
+}
+
+.desec11-right h1{
+    font-size: 4rem;
+    margin-top: 100px;
+    font-weight: 900;
+    text-align: center;
+    color: #555;
+}
+
+.desec11-right hr{
+  margin-top: -15px;
+  margin-bottom: 30px;
+  background: #555;
+  border: none;
+  height: 2px;
+  width: 50px;
+}
+
+.desec11-right p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    padding-inline: 50px;
+}
+
+.desec11-right span{
+  font-weight: 700;
+}
+
+.desec11-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desec11-btn-inner{
+    position: relative;
+    padding: 0.7rem 1rem;
+    letter-spacing: 2px;
+    color: #8bc34a;
+    border: 2px solid #8bc34a;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+.desec11-btn-inner::before{
+    z-index: 0;
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    transform: translate(-50%,-50%);
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #8bc34a;
+    transition: width .5s, height .5s; 
+}
+
+.desec11-btn-inner:hover::before{
+    width: 400px;
+    height: 400px;
+}
+
+.desec11-btn-inner:hover span{
+    color: white
+}
+.desec11-btn-inner span{
+    position: relative;
+    z-index: 1;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1440px) {
+    .desec11-right h1{
+        margin-top: 0;
+        font-size: 2.8rem;
+    }
+    .desec11-right p{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .desec11-right h1{
+       font-size: 1.8rem;
+       width: 90%;
+       margin-inline: auto;
+    }
+   .desec11-left{
+    flex: none;
+    width: 100%;
+   }
+   .desec11-right{
+     flex: none;
+     width: 100%;
+     margin-bottom: 30px;
+     padding-top: 50px;
+   }
+   .desec11-left img{
+    height: 100%;
+}
+}
+

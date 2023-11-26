@@ -1,0 +1,80 @@
+.multisec11-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-left: 200px;
+}
+.multisec11{
+    width: 60%;
+}
+
+.multisec11 h2{
+    font-size: 1.6rem;
+    color: #8bc439;
+}
+
+.multisec11 label{
+    display: inline-block;
+    color: white;
+    margin-block: 10px;
+}
+
+.multisec11 input[type='text']{
+    border: none;
+    padding-block: 10px;
+    width: 83%;
+}
+
+.multisec11 input[type='text']:focus{
+    outline: none;
+}
+.multisec11 input[type='checkbox']{
+    display: inline;
+}
+
+.multisec11 textarea{
+    width: 83%;
+}
+
+.multisec11 p{
+    color: white;
+    display: inline;
+}
+
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease; /* You can adjust the duration and timing function */
+  }
+  
+ .fade-in.visible {
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 1440px){
+    .multisec11 h2{
+        font-size: 1.3rem;
+    }
+    
+    
+  }
+
+  @media screen and (max-width: 768px){
+    .multisec11{
+        width: 80%;
+    }
+    .multisec11-wrapper{
+        padding-left: 0;
+    }
+
+    .multisec11 input[type='text']{
+        width:100%;
+    }
+    .multisec11 textarea{
+        width: 100%;
+    }
+    
+  }

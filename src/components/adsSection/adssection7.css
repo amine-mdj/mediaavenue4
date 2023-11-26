@@ -1,0 +1,83 @@
+.adssec7{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color:#f9e883;
+}
+
+.adssec7 h1{
+  font-size: 2.5rem;
+    margin-top: 50px;
+    width: 80%;
+    margin-inline: auto;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+
+.adssec7 hr{
+  border: none;
+  height:2px ;
+  width: 50px;
+  background: white;
+}
+
+.adssec7-bottom{
+    padding-inline: 40px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.adssec7-item{
+    padding-inline: 20px;
+    margin-inline: 15px;
+    background-color: rgba(0, 0, 0, .5);
+    flex: 1;
+}
+
+.adssec7-item h2{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.adssec7-item p{
+    line-height: 1.5;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.adssec7-icon{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .adssec7{
+    min-height: 140vh;
+  }
+  .adssec7 h1{
+    font-size: 1.8rem;
+  }
+  .adssec7-item h2{
+   font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .adssec7{
+    padding-bottom: 20px;
+  }
+  .adssec7-bottom{
+    display: block;
+    padding-inline: 20px;
+  }
+
+  .adssec7-item{
+    padding-block: 2px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,82 @@
+.ticsec6{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: white;
+    background-image: url('../../img/bg-overlay.webp');
+    background-size: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ticsec6-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  flex: 1;
+}
+
+.ticsec6-right{
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ flex: 1;
+}
+
+.ticsec6-left img{
+    width: 100%;
+    width: 100%;
+}
+
+.ticsec6-right h1{
+    font-size: 2.8rem;
+ text-align: center;
+ font-weight: 900;
+ color: #555;
+}
+
+.ticsec6-right hr{
+border: none;
+height: 2px;
+width: 50px;
+background: #555;
+}
+
+.ticsec6-right p{
+    font-size: 1.2rem;
+    padding-inline: 50px;
+    line-height: 1.5;
+ color: #555;
+}
+
+.ticsec6-right span{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1440px) {
+    .ticsec6-right h1{
+        font-size: 1.8rem;
+    }
+
+    .ticsec6-right p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ticsec6-right h1{
+        width: 90%;
+        margin-inline: auto;
+    }
+    .ticsec6-right p{
+        padding-inline: 20px;
+        font-size: 1.1rem;
+    }
+   .ticsec6-left,.ticsec6-right{
+    margin-top: 10px;
+    flex: none;
+    width: 100%;
+   }
+}

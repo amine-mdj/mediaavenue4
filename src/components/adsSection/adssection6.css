@@ -1,0 +1,106 @@
+.adssec6{
+    width: 100%;
+    min-height:100vh ;
+    overflow: hidden;
+    background-color: white;
+    background-image: url('../../img/bg-network.webp');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adssec6-inner{
+    background-color: rgba(0, 0, 0, .8);
+    width: 80%;
+    color: white;
+}
+
+.adssec6-inner > h1{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 2.8rem;
+    font-weight: 900;
+text-align: center;
+}
+
+.adssec6-inner hr{
+  border: none;
+  width: 50px ;
+  height: 2px;
+  background: white;
+
+}
+
+.adssec6-inner > h2{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 400;
+text-align: center;
+}
+
+.adssec6-bottom{
+    padding-inline: 20px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.adssec6-item{
+    flex: 1;
+    margin-inline: 20px;
+    padding-inline: 10px;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.adssec6-item p{
+    line-height: 1.5;
+}
+
+.adssec6-item h2{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+.adssec6-item span{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1440px) {
+    .adssec6{
+      min-height: 120vh;
+    }
+
+    .adssec6-inner > h1{
+        font-size: 1.8rem;
+    }
+
+    .adssec6-inner > h2{
+        font-size: 1.2rem;
+    }
+    .adssec6-item h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .adssec6{
+        background-size: cover;
+        background-position: 100% 0;
+    }
+    .adssec6-bottom{
+        display: block;
+    }
+    .adssec6-inner{
+        background-color: rgba(0, 0, 0, .5);
+        margin-block: 0;
+        width: 100%;
+    }
+    .adssec6-item{
+        background-color: transparent;
+        margin-inline: 0;
+    }
+}

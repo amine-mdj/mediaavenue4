@@ -1,0 +1,47 @@
+.multi{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #151515;
+    overflow: hidden;
+         
+}
+
+.multi-buttons{
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.multi-indicator{
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+}
+
+.multi-buttons button[type=submit]{
+    background-color:#e9e626 ;
+    font-size: 1rem;
+    border: none;
+    color: black;
+    padding-inline: 20px ;
+    padding-block: 10px;
+}
+
+.multi-buttons button[type=submit]:hover{
+    background-color:#eeec79 ;
+    }
+
+.multi-buttons button[type=button]:hover{
+        background-color:#e2e6ea ;
+        }
+
+.multi-buttons button[type=button]{
+    background-color:white ;
+    font-size: 1rem;
+    border: none;
+    color: black;
+    padding-inline: 20px ;
+    padding-block: 10px;
+}
