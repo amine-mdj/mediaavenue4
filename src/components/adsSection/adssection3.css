@@ -110,6 +110,7 @@ text-align: center;
     }
     .adssec3 > p{
         padding-inline: 20px;
+        text-align: left;
     }
    .adssec3-grid{
     display: block;
@@ -120,7 +121,19 @@ text-align: center;
    }
    .adssec3-grid-item ul{
     padding-inline: 20px;
+    list-style: none;
    }
+   .adssec3-grid-item li::before{
+    content: '';
+    width: 20px; 
+    height: 20px;
+    background-image: url('../../img/rhombus3.png');
+    background-size: cover; /* Adjust the background-size property as needed */
+    display: inline-block;
+    margin-left: -10px;
+    margin-right: 10px;
+    vertical-align:middle;
+}
    .adssec3-grid-item p{
     width: 100%;
    }
@@ -128,5 +141,8 @@ text-align: center;
    .adssec3-item-left{
     background-size:  120px 70px;
     }
+    .adssec3-item-right{
+        padding-inline: 0;
+        }
 
 }

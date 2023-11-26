@@ -71,8 +71,11 @@
   .adssec4-right p{
     text-align: left;
    width: auto;
-   margin-inline: 20px;
+   padding-inline: 20px;
    font-size: 1.1rem;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   margin-right: 0;
   }
   .adssec4-right{
     padding-left: 0;

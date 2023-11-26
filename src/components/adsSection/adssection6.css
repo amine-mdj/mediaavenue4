@@ -102,5 +102,6 @@ text-align: center;
     .adssec6-item{
         background-color: transparent;
         margin-inline: 0;
+        padding-inline: 0;
     }
 }

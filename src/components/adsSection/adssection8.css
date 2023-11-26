@@ -98,5 +98,8 @@
   .adssec8-desc{
     margin: auto;
     margin-bottom: 20px;
+    width: 90%;
+    padding-inline: 20px;
+    
   }
 }

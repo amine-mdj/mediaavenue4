@@ -122,4 +122,7 @@
         
         text-align: center;
     }
+    .ticsec2-left{
+        background-size: 100px 50px;
+    }
 }

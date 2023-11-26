@@ -124,4 +124,11 @@
      width: 100%;
      margin-bottom: 30px;
     }
+    .left-inner{
+        width: auto;
+        margin-left: 20px;
+    }
+    .right-inner{
+        width: auto;
+    }
 }
