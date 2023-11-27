@@ -1,0 +1,51 @@
+.image-grid{
+    box-shadow:0 0 26px rgba(0,0,0,.3);
+}
+
+.hover-grid{
+    background-color: white;
+    opacity: 0;
+    height: 100%;
+    overflow:hidden ;
+    text-align: center;
+    transition: opacity .5s;
+    }
+.hover-grid h1{
+    text-align: center;
+    color: #555;
+    font-size: 2rem;
+    transform: translateY(-20px);
+    transition: transform .5s;
+
+}
+
+.hover-grid p{
+  text-align: center;
+  color: #555;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.hover-grid button{
+    margin-top: 20px;
+    display: inline-block;
+    border : 2px solid #8bc34a;
+    color: #8bc34a;
+    background-color: white;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.1rem;
+    transform: translateX(-30px);
+    transition: transform .5s;
+  }
+
+.hover-grid:hover{
+    opacity: .9;
+}
+
+.hover-grid:hover button{
+    transform: translateX(-0px);
+}
+
+.hover-grid:hover h1{
+    transform: translateY(-0px);
+}

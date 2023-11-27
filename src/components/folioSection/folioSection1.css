@@ -1,0 +1,49 @@
+.foliosec1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../../img/bg-chess-no-hand.webp');
+    background-position: 50%;
+    background-size: cover;
+    background-color: #151515;
+    overflow: hidden;
+}
+.foliosec1-flex{
+    display: flex;
+}
+
+.folio-flex-left{
+ flex: 33%;
+ max-width: 33%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding-left: 3rem;
+}
+.folio-flex-right{
+    flex: 33%;
+    max-width: 33%;
+}
+.folio-flex-right img{
+    max-width: 100%;
+    height: auto;
+}
+.folio-flex-left h1{
+    text-align: center;
+  font-size: 4.2rem;
+  font-weight: 900;
+  color: white;
+}
+
+.folio-flex-left hr{
+ border: none;
+ background: white;
+ height: 2px;
+ width: 50px;
+}
+
+.folio-flex-left p{
+    text-align: center;
+  color: white;
+  font-size: 1.2rem;
+}

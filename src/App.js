@@ -18,7 +18,8 @@ import Publicite from "./pages/publicite";
 import Agency from "./pages/agency";
 import Contact from "./pages/contact";
 import Multistep from "./pages/multistep";
-
+import Portfolio from "./pages/portfolio";
+import Budget from "./pages/budget";
 
 function App() {
   
@@ -62,6 +63,8 @@ function App() {
           <Route path="/analyse" element={<Analyse />} />
           <Route path="/publicité" element={<Publicite />} />
           <Route path="/agency" element={<Agency />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/budget" element={<Budget />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Multistep" element={<Multistep />} />
     </Routes>

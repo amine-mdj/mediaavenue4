@@ -1,0 +1,97 @@
+.budsec1{
+    min-height: 101vh;
+    width: 100%;
+    background-image: url('../../img/bg-overlay.webp');
+    background-size: 2px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+}
+
+.budsec1-left{
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.budsec1-right{
+    flex: 60%;
+}
+
+.flex-buttons-inner button{
+    border: 2px solid #8bc34a;
+    color: #8bc34a;
+    padding: 2rem 6.8rem;
+    background-color: white;
+    }
+.flex-buttons{
+    display: flex;
+    width: 100%;
+}
+
+.budsec1-left img{
+    max-width: 80%;
+    height: auto;
+    
+}
+
+.budsec1-right-wrapper{
+    width: 80%;
+    margin-inline: auto;
+}
+.budsec1-right-wrapper hr{
+    background: #555;
+    width: 50px;
+    height: 2px;
+    border: none;
+}
+.budsec1-right-wrapper h1{
+    color: #555;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.budsec1-right-wrapper > p{
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.budsec1-inner{
+    padding: 1rem;
+    background-color: rgba(0,0,0,.5);
+}
+
+.budsec1-inner p{
+    color: white;
+}
+
+.budsec1-inner li{
+    color: white;
+}
+
+.budsec1-inner span{
+    font-weight: 700;
+}
+.flex-buttons-inner{
+    flex: 1;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.anim-price{
+    font-weight:normal!important;
+    animation: anim-price 5s infinite;
+    }
+
+@keyframes anim-price{
+    0%{
+        opacity: 0;
+    }
+     20%{
+        opacity: 1;
+        }
+}

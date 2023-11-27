@@ -140,6 +140,8 @@ const Navbar = ({ isActive, toggleClass }) => {
         </div>
         <div className="links2">
           <h2>L'agence</h2>
+          <ul>
+            <li>
           <Link
             onClick={() => {
               toggleClass();
@@ -149,6 +151,19 @@ const Navbar = ({ isActive, toggleClass }) => {
           >
             L'agence
           </Link>
+          </li>
+          <li>
+          <Link
+            onClick={() => {
+              toggleClass();
+              scrolltop();
+            }}
+            to="/portfolio"
+          >
+            Portfolio
+          </Link>
+          </li>
+          </ul>
         </div>
         <div className="links3">
           <h2>contact</h2>
